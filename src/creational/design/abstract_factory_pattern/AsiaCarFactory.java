@@ -14,6 +14,7 @@ public class AsiaCarFactory
     {
       case SMALL:
       car = new SmallCar(Location.ASIA);
+        System.out.println("Test");
       break;
  
       case SEDAN:
